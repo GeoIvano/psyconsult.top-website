@@ -1,0 +1,217 @@
+/* your styles go here */
+
+
+:root {
+    --main-bg-color: brown;
+    --main-purple : #e6cbea; 
+}
+
+
+.caroussel-label {
+    color: white; 
+}
+.caroussel-btn {
+    margin-top: 1.5em;
+    margin-bottom: 3.5em;
+    color: white; 
+    font-weight: bold;  
+    background-color: rgba(128, 128, 128, 0.705); 
+}
+#bio  {
+    list-style-type: square;
+ }
+ #bio li  {
+    margin-top: 8px; 
+ } 
+
+ul>li {
+    margin-top: 25px; 
+}  
+
+.foto {
+    margin-top: 10em; 
+    margin-left: 4em; 
+    height: 55%; 
+    width: 55%; 
+    border-radius: 5%;
+}
+.psy-logo{
+    margin-top: 18px;
+    font-size: 1.3em ;
+    font-weight: bold;  
+}
+.tel-logo{
+    font-size:1.2em;
+    color: rgb(68, 136, 192);
+    font-weight: bold; 
+    margin-left: .4em;  
+}
+.about{
+    /* background-color:   #e6cbea32;  */
+    /* border: .5px solid  #5a055a93;  */
+    width: 95%;
+    padding: 3em; 
+    border-radius: 1%;  
+}
+#bio{
+    /* background-color: rgba(128, 128, 128, 0.219);  */
+    background-color: #eee; 
+    padding: 1em 1.5em;
+    margin-bottom: 5em;  
+    border-radius: 1%;  
+}
+
+#books li {
+    /* background-color: rgba(124, 131, 136, 0.335); */
+    width : 95%;  
+    margin-bottom: 1.5em;  
+}
+.definition{
+    width: 80%;
+    font-size: 1.1em; 
+    background-color: #b2e9e0; 
+    padding: 1.5em 1.5em;
+    margin-bottom: 4em; 
+    margin-top: 1em; 
+}
+#small-tabs-container{
+    width: 100%;
+    padding: 1em;  
+}
+.small-tab{
+    background-color:  var(--main-purple); 
+    border: 1px solid r#ce6fc3   ;
+    margin: .75em; 
+    padding : 1em;
+    font-size: 1.2em;
+    border-radius: 3%; 
+    height: 7em;  
+}
+.big-tab{
+    background-color:  var(--main-purple); 
+    border: 1px solid #ce6fc3 ;
+    margin: .75em; 
+    padding : 1em;
+    font-size: 1.2em;
+    border-radius: 2%; 
+    height: auto;  
+}
+.small-headline{
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+.carousel-inner{
+    width: 60em; 
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    display: block;
+    max-width: 100%;
+    height: 35em;
+    padding-left: 12em;
+    /* width: auto; */
+}
+.carousel-caption{
+    padding-left: 12em;
+}
+#feedback h2, #feedback {
+    color :#333333
+}
+
+.green{
+    background-color: #b2e9e0; 
+    padding:.3em; 
+    width: 6em;
+    border-radius: 3%;  
+}
+.lila{
+    background-color: var(--main-purple); 
+    padding:.3em; 
+    width: 6em;
+    border-radius: 3%;  
+}
+.cute-arrow{
+    margin-bottom:2em; 
+    height: 55%; 
+    width: 55%;
+}
+.gallery{
+    padding-top: 0;
+}
+.about{
+    padding-bottom: 0; 
+}
+.contact-info{
+    font-size:1.3em; 
+    margin-left: 1em; 
+}
+.text-container{
+    margin: 3.5em 1em ;
+}
+.text-container h5{
+    background-color:  var(--main-purple);
+    display:inline-block; 
+    padding : .5em  1em ; 
+}
+.text-container p{
+    background-color:  var(--main-purple);
+}
+
+#services-individual h5 {
+}
+
+#services-individual .acc-title{
+    background-color: #b2e9e0; 
+    padding: .4em ;
+}
+.carossul-anchor{
+    color: inherit; 
+    text-decoration: none;
+}
+.price{
+    margin-top: 5em; 
+}
+
+
+.label {
+       color: black ; 
+}
+
+#accordion .acc-title a {
+    text-decoration: none; 
+}
+#accordion ul {             /*    !!! TODO    */ 
+    background-color: var(--main-purple);
+    list-style: none; 
+    margin : 0% auto; 
+    width: 100%;
+    padding: 2.5% 5%;
+}
+#accordion ul li {
+    text-decoration: none; 
+}
+
+h5 .acc-title{
+    margin : 0% ; 
+    color: red ;
+}
+
+#accordion .acc-title a {
+    text-decoration: none; 
+}
+#accordion .acc-title button {
+    background-color: aquamarine ; 
+}
+
+#accordion .acc-title button {
+    background-color: rgba(9, 158, 109, 0.753) ; 
+    border: none ; 
+}
+#accordion .acc-title button i {
+    font-size : 3em;     
+}
+#accordion .content {
+    font-size : 1.2em;
+    margin : 0% auto;
+    width: 100%;       
+}
+
